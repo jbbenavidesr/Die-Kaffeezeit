@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "text": "Start",
+      "url": "/"
+    },
+    {
+      "text": "Über uns",
+      "url": "/uber-uns/"
+    },
+    {
+      "text": "Artikel",
+      "url": "/artikel/"
+    },
+    {
+      "text": "Rezepte",
+      "url": "/rezepte/"
+    },
+    {
+      "text": "Anzeige",
+      "url": "/anzeige/"
+    }
+  ]
+}
