@@ -2,9 +2,11 @@
 layout: layouts/post.html
 title: First correct post from netlify CMS
 description: Oh mein Gott!
+tags: "Wirtschaft"
 date: 2020-10-30T05:00:00.000Z
 featuredImage: /images/uploads/zweistein.jpg
 ---
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fringilla sapien diam, a commodo tellus semper sit amet. Nunc convallis molestie ornare. Sed sit amet venenatis lacus. Nam sed massa sed diam efficitur iaculis vel vel tellus. Etiam blandit laoreet iaculis. Mauris fermentum ut felis ac iaculis. Pellentesque vel quam velit.
 
 Aliquam erat volutpat. In efficitur erat at augue pretium cursus. In tincidunt malesuada libero at pretium. Donec eget nibh sed lacus pulvinar elementum. Morbi pulvinar, orci vitae efficitur sagittis, nulla erat congue felis, ac posuere tellus nisl quis ligula. Nunc ultricies risus tortor, nec consequat orci cursus ut. Nunc justo orci, ultricies fermentum ante vel, elementum vulputate felis. Aliquam vel erat luctus, gravida lectus ut, pulvinar ex. Maecenas magna sem, pretium eu elementum quis, sollicitudin mollis neque. Nunc ullamcorper ipsum sed diam vulputate, et pellentesque risus placerat.
