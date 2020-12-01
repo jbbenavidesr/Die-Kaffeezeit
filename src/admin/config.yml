@@ -31,7 +31,13 @@ collections:
             "Wissenschaft und Technologie",
           ]
       - { label: "Post Body", name: "body", widget: "markdown" }
-      - { label: "Featured Image", name: "featuredImage", widget: "image" }
+      - { label: "Main Bild", name: "featuredImage", widget: "image" }
+      - label: "Andere Bilder"
+        name: "otherImages"
+        widget: "list"
+        required: false
+        summary: "{{fields.image}}"
+        field: { label: Bild, name: image, widget: image }
   - name: "recipes" #The name of the collection and should match our posts.json file's tag
     label: "Rezepte" #The name of the collection on the CMS itself
     folder: "src/rezepte" #The folder that our blog posts will be loaded from and saved to
@@ -82,10 +88,21 @@ collections:
         widget: "object"
         collapsed: true
         fields:
-          - { label: "Telefonnummer", name: "phone", widget: "number" }
-          - { label: "Email", name: "email", widget: "string" }
-          - { label: "Addresse", name: "address", widget: "string" }
+          - {
+              label: "Telefonnummer",
+              name: "phone",
+              widget: "number",
+              required: false,
+            }
+          - { label: "Email", name: "email", widget: "string", required: false }
+          - {
+              label: "Addresse",
+              name: "address",
+              widget: "string",
+              required: false,
+            }
           - { label: "Name", name: "name", widget: "string" }
+      - { label: Bild, name: image, widget: image, required: false }
   - name: "people"
     label: "Authoren"
     folder: "src/people"
