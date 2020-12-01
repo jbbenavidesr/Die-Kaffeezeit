@@ -5,20 +5,20 @@
         <div class="[ featured-work__inner ] [ flow ]">
             <div class="[ featured-work__intro ] [ flow flow-space-300 ]">
                 <h2 class="[ featured-work__heading ] [ headline ] [ color-quinary-shade lg:measure-micro ]" data-highlight="dark">
-                    {{ category.title }}
+                    {{ category }}
                 </h2>
                 <p class="[ featured-work__summary ] [ measure-compact ]">
                     {{ category.summary }}
                 </p>
             </div>
-            {% for item in category %}
+            {% for item in categoryList %}
                 <a href="{{ item.url }}" aria-label="See {{ item.data.title }}" class="[ featured-work__item ] [ frame ]" data-frame="quaternary">
-                    <img src="{{ item.data.hero.image }}" alt="{{ item.data.hero.imageAlt }}" loading="lazy" class="radius"/>
+                    <img src="{{ item.data.featuredImage }}" alt="Bild für {{ item.data.title }}" loading="lazy" class="radius"/>
                 </a>
             {% endfor %}
         </div>
         <div class="[ featured-work__action ] [ flow-space-700 ]">
-            <a href="/work/" class="button">See more work</a>
+            <a href="/artikel/{{ category | slug }}/" class="button">Mehr dazu</a>
         </div>
     </div>
 </article>

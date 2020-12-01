@@ -15,6 +15,11 @@
         </div>
     </article>
 
-    {% set postslist = collections.posts %}
-    {% include "partials/postlist.html" %}
+    {% for category in collections.categories %}
+        {% set categoryList = collections[category] %}
+        {% include "partials/category-block.html" %}
+    {% endfor %}
+
+    {# {% set postslist = collections.posts %}
+    {% include "partials/postlist.html" %} #}
 {% endblock %}
