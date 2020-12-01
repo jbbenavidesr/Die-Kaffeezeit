@@ -64,7 +64,9 @@ collections:
         name: "steps"
         widget: "list"
         allow_add: true
-        field: { label: "Schritte", name: "steps", widget: "text" }
+        fields:
+          - { label: "Schritte", name: "steps", widget: "text" }
+          - { label: Bild, name: image, widget: image, required: false }
       - { label: "Featured Image", name: "featuredImage", widget: "image" }
   - name: "anzeige" #The name of the collection and should match our posts.json file's tag
     label: "Anzeige" #The name of the collection on the CMS itself
