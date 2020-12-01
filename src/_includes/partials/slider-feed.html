@@ -1,0 +1,21 @@
+{% if sliderFeed %}
+    <article class="[ studio-feed ] [ dot-shadow panel ] [ bg-tertiary-glare ]">
+        <div class="[ wrapper ] [ flow flow-space-300 ]">
+            <h2 class="[ studio-feed__heading ] [ headline ] [ md:measure-micro ]" data-highlight="secondary">
+                <a href="{{ sliderFeed.url | url }}">{{ sliderFeed.title }}</a>
+            </h2>
+            <p class="visually-hidden" id="studio-feed-desc">
+                {{ sliderFeed.summary }}
+            </p>
+            <div class="[ studio-feed__items ] [ flow-space-700 ]">
+                <ul class="studio-feed__list">
+                    {% for item in collections[sliderFeed.collection] %}
+                        <li>
+                            <img src="{{ item.data.featuredImg.image }}" alt="{{ item.data.featuredImg.alt }}" draggable="false" class="radius"/>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </article>
+{% endif %}

@@ -1,9 +1,15 @@
 module.exports = config => {
 
-    // Returns work items, sorted by display order
+    // Returns post items
     config.addCollection('posts', collection => {
         return collection
             .getFilteredByGlob('./src/posts/*.md');
+    });
+
+    // Returns recipes items
+    config.addCollection('recipes', collection => {
+        return collection
+            .getFilteredByGlob('./src/rezepte/*.md');
     });
 
     config.addCollection("categories", collection => {
@@ -18,6 +24,7 @@ module.exports = config => {
                         case "nav":
                         case "post":
                         case "posts":
+                        case "recipes":
                             return false;
                     }
                     return true;
