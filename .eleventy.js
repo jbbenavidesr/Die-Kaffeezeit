@@ -12,6 +12,16 @@ module.exports = config => {
             .getFilteredByGlob('./src/rezepte/*.md');
     });
 
+    config.addCollection('anzeige', collection => {
+        return collection
+            .getFilteredByGlob('./src/anzeige/*.md');
+    });
+
+    config.addCollection('people', collection => {
+        return collection
+            .getFilteredByGlob('./src/people/*.md');
+    });
+
     config.addCollection("categories", collection => {
         let categorySet = new Set();
         collection.getAll().forEach( item => {

@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: main # Branch to update
+  branch: develop # Branch to update
 publish_mode: editorial_workflow
 media_folder: "src/images/uploads"
 public_folder: "/images/uploads"
@@ -9,7 +9,7 @@ collections:
     label: "Posts" #The name of the collection on the CMS itself
     folder: "src/posts" #The folder that our blog posts will be loaded from and saved to
     create: true #Tells the CMS that new posts can be created
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" #this sets the URL for the post
+    slug: "{{slug}}" #this sets the URL for the post
     fields:
       - {
           label: "Layout",
@@ -19,6 +19,80 @@ collections:
         }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
-      - { label: "Category", name: "tags", widget: "string" }
+      - label: "Teile"
+        name: "tags"
+        widget: "select"
+        options:
+          [
+            "Kultur",
+            "Politik und Wirtschaft",
+            "Menschen",
+            "Musik, Film und Literatur",
+            "Wissenschaft und Technologie",
+          ]
       - { label: "Post Body", name: "body", widget: "markdown" }
       - { label: "Featured Image", name: "featuredImage", widget: "image" }
+  - name: "recipes" #The name of the collection and should match our posts.json file's tag
+    label: "Rezepte" #The name of the collection on the CMS itself
+    folder: "src/rezepte" #The folder that our blog posts will be loaded from and saved to
+    create: true #Tells the CMS that new posts can be created
+    slug: "{{slug}}" #this sets the URL for the post
+    fields:
+      - {
+          label: "Layout",
+          name: "layout",
+          widget: "hidden",
+          default: "layouts/recipes.html",
+        }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - label: "Zutaten"
+        name: "ingredients"
+        widget: "list"
+        allow_add: true
+        fields:
+          - { label: "Wie viele?", name: "quantity", widget: "number" }
+          - { label: "Einheiten (Unidades)", name: "unit", widget: "string" }
+          - { label: "Was?", name: "product", widget: "string" }
+      - label: "Zubereiten"
+        name: "steps"
+        widget: "list"
+        allow_add: true
+        field: { label: "Schritte", name: "steps", widget: "text" }
+      - { label: "Featured Image", name: "featuredImage", widget: "image" }
+  - name: "anzeige" #The name of the collection and should match our posts.json file's tag
+    label: "Anzeige" #The name of the collection on the CMS itself
+    folder: "src/anzeige" #The folder that our blog posts will be loaded from and saved to
+    create: true #Tells the CMS that new posts can be created
+    slug: "{{slug}}" #this sets the URL for the post
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - label: "Teile"
+        name: "type"
+        widget: "select"
+        options:
+          [
+            "Heiraten & Bekanntschaften",
+            "Traueranzeigen",
+            "Weitere Anzeigenmärkte",
+          ]
+      - label: "Kontakt"
+        name: "contactInfo"
+        widget: "object"
+        collapsed: true
+        fields:
+          - { label: "Telefonnummer", name: "phone", widget: "number" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Addresse", name: "address", widget: "string" }
+          - { label: "Name", name: "name", widget: "string" }
+  - name: "people"
+    label: "Authoren"
+    folder: "src/people"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Bild", name: "image", widget: "image" }
