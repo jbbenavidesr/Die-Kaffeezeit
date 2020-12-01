@@ -84,7 +84,6 @@ collections:
         fields:
           - { label: "Telefonnummer", name: "phone", widget: "number" }
           - { label: "Email", name: "email", widget: "string" }
-          - { label: "Email", name: "email", widget: "string" }
           - { label: "Addresse", name: "address", widget: "string" }
           - { label: "Name", name: "name", widget: "string" }
   - name: "people"
