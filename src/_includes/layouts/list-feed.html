@@ -1,0 +1,12 @@
+{% extends "layouts/base.html" %}
+
+{% set pageHeaderTitle = title %}
+{% set pageHeaderSummary = content %}
+{% set listItems = collections[listItems] %}
+
+{% block content %}
+    <article>
+        {% include "partials/page-header.html" %}
+        {% include "partials/item-list.html" %}
+    </article>
+{% endblock %}

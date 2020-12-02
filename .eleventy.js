@@ -32,9 +32,10 @@ module.exports = config => {
                     switch (item ) {
                         case "all":
                         case "nav":
-                        case "post":
+                        case "anzeige":
                         case "posts":
                         case "recipes":
+                        case "people":
                             return false;
                     }
                     return true;

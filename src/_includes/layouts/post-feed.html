@@ -1,0 +1,16 @@
+{% extends "layouts/base.html" %}
+
+{% set pageHeaderTitle = title %}
+{% set pageHeaderSummary = content %}
+
+{% if category %}
+    {% set postListItems = collections[category] %}
+    {% set pageHeaderTitle = category %}
+{% endif %}
+
+{% block content %}
+    <article>
+        {% include "partials/page-header.html" %}
+        {% include "partials/post-list.html" %}
+    </article>
+{% endblock %}
