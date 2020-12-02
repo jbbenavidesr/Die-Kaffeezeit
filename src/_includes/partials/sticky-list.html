@@ -1,0 +1,38 @@
+<div class="[ dot-shadow panel ] [ bg-secondary-glare ]" id="post-list">
+    <div class="[ wrapper ] [ flow flow-space-700 ]">
+        {% if postListHeadline %}
+            <h2 class="[ headline ] [ measure-micro ]" data-highlight="primary">
+                {{ postListHeadline }}
+            </h2>
+        {% endif %}
+        <div>
+            <ul class="[ sticky-list ] [ flow ]">
+                {% for item in listItems %}
+                    <li class="[ sticky-list__item ] [ leading-tight measure-long ]" data-type="{{ item.data.type }}">
+                        <h3>{{ item.data.title }}</h3>
+                        <p>{{ item.data.description }}</p>
+                        <h4>Kontakt:</h4>
+                        <ul>
+                            {% if item.data.contactInfo.phone %}
+                                <li>
+                                    <strong>Telefonnummer:</strong>{{ item.data.contactInfo.phone }}</li>
+                            {% endif %}
+                            {% if item.data.contactInfo.address %}
+                                <li>
+                                    <strong>Addresse:</strong>{{ item.data.contactInfo.address }}</li>
+                            {% endif %}
+                            {% if item.data.contactInfo.email %}
+                                <li>
+                                    <strong>Email:</strong>{{ item.data.contactInfo.email }}</li>
+                            {% endif %}
+                            {% if item.data.contactInfo.name %}
+                                <li>
+                                    <strong>Name:</strong>{{ item.data.contactInfo.name }}</li>
+                            {% endif %}
+                        </ul>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>

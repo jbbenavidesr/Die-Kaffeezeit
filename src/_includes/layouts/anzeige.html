@@ -1,0 +1,16 @@
+{% extends "layouts/base.html" %}
+
+{% set pageHeaderTitle = title %}
+{% set pageHeaderSummary = content %}
+
+{% if category %}
+    {% set listItems = collections[category] %}
+    {% set pageHeaderTitle = category %}
+{% endif %}
+
+{% block content %}
+    <article>
+        {% include "partials/page-header.html" %}
+        {% include "partials/sticky-list.html" %}
+    </article>
+{% endblock %}
