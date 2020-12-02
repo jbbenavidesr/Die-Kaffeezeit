@@ -6,8 +6,8 @@ module.exports = config => {
             .getFilteredByGlob('./src/posts/*.md');
     });
 
-    // Returns recipes items
-    config.addCollection('recipes', collection => {
+    // Returns rezepte items
+    config.addCollection('rezepte', collection => {
         return collection
             .getFilteredByGlob('./src/rezepte/*.md');
     });
@@ -34,7 +34,7 @@ module.exports = config => {
                         case "nav":
                         case "anzeige":
                         case "posts":
-                        case "recipes":
+                        case "rezepte":
                         case "people":
                             return false;
                     }

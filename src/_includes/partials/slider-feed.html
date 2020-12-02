@@ -11,7 +11,7 @@
                 <ul class="studio-feed__list">
                     {% for item in collections[sliderFeed.collection] %}
                         <li>
-                            <img src="{{ item.data.featuredImg.image }}" alt="{{ item.data.featuredImg.alt }}" draggable="false" class="radius"/>
+                            <a href="{{ item.url }}"><img src="{{ item.data.featuredImage }}" alt="Bild für {{ item.data.title }} rezepte." draggable="false" class="radius"/></a>
                         </li>
                     {% endfor %}
                 </ul>

@@ -27,7 +27,7 @@ collections:
           ]
       - { label: "Post Body", name: "body", widget: "markdown" }
       - { label: "Main Bild", name: "featuredImage", widget: "image" }
-  - name: "recipes" #The name of the collection and should match our posts.json file's tag
+  - name: "rezepte" #The name of the collection and should match our posts.json file's tag
     label: "Rezepte" #The name of the collection on the CMS itself
     folder: "src/rezepte" #The folder that our blog posts will be loaded from and saved to
     create: true #Tells the CMS that new posts can be created
@@ -49,7 +49,7 @@ collections:
         widget: "list"
         allow_add: true
         fields:
-          - { label: "Schritte", name: "steps", widget: "text" }
+          - { label: "Schritte", name: "step", widget: "text" }
           - { label: Bild, name: image, widget: image, required: false }
       - { label: "Featured Image", name: "featuredImage", widget: "image" }
   - name: "anzeige" #The name of the collection and should match our posts.json file's tag
