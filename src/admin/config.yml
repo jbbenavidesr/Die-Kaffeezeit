@@ -11,12 +11,6 @@ collections:
     create: true #Tells the CMS that new posts can be created
     slug: "{{slug}}" #this sets the URL for the post
     fields:
-      - {
-          label: "Layout",
-          name: "layout",
-          widget: "hidden",
-          default: "layouts/post.html",
-        }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Autor", name: "author", widget: "string" }
@@ -39,12 +33,6 @@ collections:
     create: true #Tells the CMS that new posts can be created
     slug: "{{slug}}" #this sets the URL for the post
     fields:
-      - {
-          label: "Layout",
-          name: "layout",
-          widget: "hidden",
-          default: "layouts/recipes.html",
-        }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Autor", name: "author", widget: "string" }
