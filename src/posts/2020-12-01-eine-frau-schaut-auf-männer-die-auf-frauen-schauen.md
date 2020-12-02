@@ -4,11 +4,10 @@ title: "Eine Frau schaut auf Männer, die auf Frauen schauen "
 description: "Mit der Hustvedts Reflexion fragen wir uns: Wie reproduziert das
   Bild die Gewalt?"
 date: 2020-12-04T05:00:00.000Z
+author: "**Valentina Giraldo Sánchez**"
 tags: Kultur
 featuredImage: /images/uploads/frauenzeitung.jpg
 ---
-**von Valentina Giraldo Sánchez**
-
 Die Pinakothek der Moderne in München feierte im Jahr 2012 sein 10. Jubiläum. Zu diesem Anlass wurde die Ausstellung „Frauen” präsentiert. Diese Ausstellung zeigte Gemälden von Pablo Picasso, Willem De Kooning und Max Beckmann. Die Bilder dieser drei modernen Künstler zeigen, was Frauen ihrer Meinung nach sind.
 
 Ab nächster Woche können Sie die Ausstellung „Frauen” im Berliner Kunstmuseum sehen. Über diese Ausstellung möchten wir Sie auch an den Essay der Philosophin Siri Hustvedt erinnern.
