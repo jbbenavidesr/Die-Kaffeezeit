@@ -4,7 +4,7 @@ title: "Eine Frau schaut auf Männer, die auf Frauen schauen "
 description: "Mit der Hustvedts Reflexion fragen wir uns: Wie reproduziert das
   Bild die Gewalt?"
 date: 2020-12-04T05:00:00.000Z
-author: "**Valentina Giraldo Sánchez**"
+author: Valentina Giraldo Sánchez
 tags: Kultur
 featuredImage: /images/uploads/frauenzeitung.jpg
 ---
