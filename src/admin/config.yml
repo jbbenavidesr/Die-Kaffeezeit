@@ -33,12 +33,6 @@ collections:
           ]
       - { label: "Post Body", name: "body", widget: "markdown" }
       - { label: "Main Bild", name: "featuredImage", widget: "image" }
-      - label: "Andere Bilder"
-        name: "otherImages"
-        widget: "list"
-        required: false
-        summary: "{{fields.image}}"
-        field: { label: Bild, name: image, widget: image }
   - name: "recipes" #The name of the collection and should match our posts.json file's tag
     label: "Rezepte" #The name of the collection on the CMS itself
     folder: "src/rezepte" #The folder that our blog posts will be loaded from and saved to
