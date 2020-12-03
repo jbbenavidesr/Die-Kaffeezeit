@@ -1,12 +1,13 @@
 ---
-layout: layouts/post.html
-title: "Bild und Politik: Fotografie, Anthropologie und Kolonialismus."
+title: "Bild und Politik: Fotografie, Anthropologie und Kolonialismus"
 description: Wir müssen den Bilder misstrauen, wie Harun Farocki sagte.
 date: 2020-12-04T05:00:00.000Z
 author: Valentina Giraldo Sánchez
 tags: Politik und Wirtschaft
 featuredImage: /images/uploads/kolonialismuszeitung.jpg
+permalink: "/artikel/{{ tags[0] | slug }}/bild-und-politik-fotografie-anthropologie-und-kolonialismus/index.html"
 ---
+
 Im 19 Jahrhundert war die Fotografie ein visuelles Dokument über einen realen Tatsache. Die Fotografie war auch ein Registrierunginstrument, das eine Verbindung zwischen der westlichen Welt und ihrer koloniale Aktivität erschafft. Die Idee des „Anderen” entstand Mit den Bildern der „neuen Welt”.
 
 Während der Kolonie wurde das Bild als Werkzeug zu der Kategorisierung verwendet. Die Fotografie beeinflusst zu das Gedächtnis von dem 19 Jahrhundert. Das gibt zu das Gedächtnis eine feste Struktur. Bilder wurden in der Politik immer wichtiger als geschrieben Geschichte, um Macht zu erlangen. Die Geschichte der Bilder sind ein Machtmechanismus.

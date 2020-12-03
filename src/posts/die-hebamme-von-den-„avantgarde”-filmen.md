@@ -7,7 +7,9 @@ date: 2020-12-04T05:00:00.000Z
 author: Valentina Giraldo Sánchez
 tags: Menschen
 featuredImage: /images/uploads/mekaszeitung.jpg
+permalink: "/artikel/{{ tags[0] | slug }}/die-hebamme-von-den-avantgarde-filmen/index.html"
 ---
+
 Seit dem Tod von Jonas Mekas wurden viele Ehrungen, verliehen. Heute wollen wir uns an sein Werk erinnern. Jonas Mekas war Filmregisseur und Autor. Er kam aus Litauen. Nach dem Zweiten Weltkrieg ging Jonas Meka in die U.S.A. Er wurde am 24. Dezember 1922 geboren und er starb am 23. Januar 2019. Jonas Mekas ist bekannt als die Hebamme von den „avantgarde” Filmen.
 
 Die Filme von Jonas Mekas sind sehr wichtig in der Geschichte des unabhängigen Kinos. Damals war die Welt im Krieg. Die exilierten Leute kamen in Ländern wie die U.S.A. Zu dieser Zeit veränderten sich die Kultur, die Gesellschaft, die Politik und natürlich die Künste. Der Mangel an Hoffnung ließ Bewegungen, wie die Avantgarde in Trend kommen. Zum Beispiel Punkmusik und experimentelles Video.

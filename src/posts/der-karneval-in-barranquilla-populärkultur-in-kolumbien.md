@@ -4,7 +4,9 @@ description: "Der Karneval in Barranquilla: Tradition und Kultur."
 author: Von Carlos Acuña
 tags: Menschen
 featuredImage: /images/uploads/carnaval-de-barranquilla-1024x640.jpg
+permalink: "/artikel/{{ tags[0] | slug }}/der-karneval-in-barranquilla-popularkultur-in-kolumbien/index.html"
 ---
+
 Karneval ist weltweit ein Symbol für Tradition und Kultur. Kolumbien ist ein vielfältiges und multikulturelles Land. Seine Bewohner haben viele Bräuche und Traditionen, die ihre Geschichte zeigen. In Kolumbien gibt es unzählige Feste, Feiertage oder Karnevale, die repräsentativer sind,  als der Karneval in Barranquilla, der als das größte Festival in Barranquilla und als einer der größten Karnevale der Welt bekannt ist.
 
 Der Karneval findet jährlich im Februar oder März vor der Fastenzeit in Barranquilla, der die Hauptstadt von Atlántico ist, statt. Barranquilla ist sehr berühmt, weil es das Zentrum der Metropolregion ist, aber hauptsächlich, weil sein Karneval sehr berühmt wird.
