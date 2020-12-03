@@ -1,5 +1,5 @@
 ---
-title: "Kaffe Zeit"
+title: "Kaffee Zeit"
 layout: "layouts/home.html"
 metaDesc: Mögen Sie ein Kaffee? Wir haben keine Kaffee, aber die beste Sammlung von Artikeln, die Ihren Kaffee begleiten.
 intro:
