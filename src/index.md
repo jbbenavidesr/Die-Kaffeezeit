@@ -11,7 +11,7 @@ sliderFeed:
   title: "Rezepte"
   summary: "Eine Sammlung typischer kolumbianischer Rezepte."
   url: "/rezepte/"
-  collection: recipes
+  collection: rezepte
 ---
 
 ### Hallo Welt!
