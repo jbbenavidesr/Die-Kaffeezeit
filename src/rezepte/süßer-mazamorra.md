@@ -17,15 +17,15 @@ ingredients:
     product: Mich
 steps:
   - step: |
-      Zuerst muss der Mais seit am vorherigen Tag einweicht werden.
+      1. Zuerst muss der Mais seit am vorherigen Tag einweicht werden.
     image: /images/uploads/1.png
-  - step: Am nächsten Tag der Mais muss 3 Stunden lang in reichlich Wasser gekocht
-      werden und eine wenige geriebene Panela wird hinzugefügt.
+  - step: 2. Am nächsten Tag der Mais muss 3 Stunden lang in reichlich Wasser
+      gekocht werden und eine wenige geriebene Panela wird hinzugefügt.
     image: /images/uploads/2.png
-  - step: "Wenn das Wasser gekocht wird, die Milch muss hinzugefügt werden und eine
-      Stunde gemischt werden. "
+  - step: "3. Wenn das Wasser gekocht wird, die Milch muss hinzugefügt werden und
+      eine Stunde gemischt werden. "
     image: /images/uploads/3.png
-  - step: "Schließlich das Gericht mit geriebene Panela serviert wird. "
+  - step: "4. Schließlich das Gericht mit geriebene Panela serviert wird. "
     image: /images/uploads/4.png
 featuredImage: /images/uploads/imagen-1.png
 ---
