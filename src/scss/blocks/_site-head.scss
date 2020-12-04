@@ -17,7 +17,8 @@
 
         svg {
             width: 100px;
-            height: auto;
+            height: 100px;
+            border-radius: 50%;
         }
     }
 
@@ -25,11 +26,4 @@
         padding: get-size('300') 0;
     }
 
-    @include media-query('md') {
-        &__brand {
-            svg {
-                width: 160px;
-            }
-        }
-    }
 }
