@@ -5,24 +5,24 @@ description: "Heute werden wir lernen, wie man ein köstliches traditionelles
   "
 author: Von José Miguel Pérez Orjuela
 ingredients:
-  - product: "  2 Tassen Maismehl"
-    unit: g
-    quantity: 250
-  - product: 1 Tasse warmes Wasser
-    unit: g
-    quantity: 250
-  - product: Eine Tasse Milch
-    quantity: 125
-    unit: g
+  - product: Maismehl
+    unit: Tassen
+    quantity: 2
+  - product: warmes Wasser
+    unit: "Tasse "
+    quantity: 1
+  - product: Milch
+    quantity: 1
+    unit: "Tasse "
   - product: geriebener Käse (Mozzarella)
     unit: g
     quantity: 100
   - product: ein oder zwei TL Salz
-    unit: g
-    quantity: 11
+    unit: TL
+    quantity: 2
   - product: " Olivenöl"
-    unit: g
-    quantity: 10
+    unit: TL
+    quantity: 3
   - product: geschmolzene Butter
     unit: g
     quantity: 40
