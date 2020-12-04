@@ -37,7 +37,7 @@
       <h2>Zubereiten</h2>
       <ol>
         {% for item in steps %}
-          <li>
+          <li class="flow">
             {{ item.step }}
             {% if item.image %}
               <img src="{{ item.image }}" alt="Step {{ loop.index }}">

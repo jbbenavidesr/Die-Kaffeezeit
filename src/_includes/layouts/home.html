@@ -18,7 +18,7 @@
         </article>
     </div>
 
-    {% set cls = cycler("reverse", "normal") %}
+    {% set cls = cycler("normal", "reverse") %}
     {% for category in collections.categories %}
         {% set categoryList = collections[category] %}
         {% include "partials/category-block.html" %}
