@@ -5,8 +5,9 @@ description: „Alles, was der Mensch den Tieren antut, kommt auf den Menschen
   nach 510 v. Chr.)
 author: Von Carlos Acuña
 tags: Politik und Wirtschaft
-featuredImage: /images/uploads/vegan-logo-essen-ernährung-speise-678x381.jpeg
+featuredImage: /images/uploads/vegan-logo-essen-ernahrung-speise.jpeg
 ---
+
 Heute wird das Fleisch wird als Ware betrachtet, ohne das Leben der Tiere zu berücksichtigen. Deshalb gibt es in Deutschland als in anderen Teilen der Welt, neue Bewegungen, die den Tierschutz ermöglichen.
 
 Mit dem Anliegen, die Natur zu schützen, gibt es eine Schweinefarm wie die von Gabriele Mörixmann. Trotzdem dauert die Aufzucht in Gabrieles Stall länger und ist teurer. „Der Stall ist als eine Welt der Unterhaltung für Schweine mit mehr Platz gedacht worden. Die Tiere können den ganzen Tag wählen, wohin sie wollen gehen wollen, aber das ist teurer. Dieses Fleisch wird auf spezialisierten Märkten verkauft und kostet 30% mehr als das Fleisch von einem traditionellen Markt“ sagte Gabriele sagt.
