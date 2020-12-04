@@ -1,5 +1,6 @@
 .sticky-list {
     font-family: 'Reenie Beanie', cursive;
+    --auto-grid-min-size: 20rem;
 
     &__item {
         padding: get-size('500');
