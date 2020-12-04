@@ -1,4 +1,5 @@
 {% extends "layouts/base.html" %}
+{% set pageCriticalStyles = ['css/page.css'] %}
 
 {% set pageHeaderTitle = title %}
 {# Grab other posts that aren’t this one for the 'more from the blog' feed #}
@@ -6,7 +7,7 @@
 
 {# Render post date and any tags that this post has been filed under #}
 {% set pageHeaderSummary %}
-<p class="measure-short">{{ author }}</p>
+<p class="measure-short text-400">{{ author }}</p>
 <p class="measure-short">{{ description }}</p>
 {% endset %}
 
@@ -18,7 +19,7 @@
           <h1 class="[ headline ] [ measure-compact ]" data-highlight="quinary">
             {{ pageHeaderTitle }}
           </h1>
-          <div>{{ pageHeaderSummary | safe }}</div>
+          <div class="flow">{{ pageHeaderSummary | safe }}</div>
         </div>
       </div>
       <img src="{{ featuredImage }}" alt="Bild für {{ title }}" class="hero__image"/>
