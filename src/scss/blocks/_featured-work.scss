@@ -34,6 +34,22 @@
                 grid-column: 13/6;
             }
         }
+
+        &[data-state='reverse'] {
+            .featured-work__intro {
+                text-align: right;
+            }
+
+            .featured-work__item {
+                &:nth-child(odd) {
+                    grid-column: 13/6;
+                }
+
+                &:nth-child(even) {
+                    grid-column: 1/8;
+                }
+            }
+        }
     }
 
     @include media-query('lg') {
@@ -47,6 +63,19 @@
 
             &:nth-child(even) {
                 grid-column: 13/7;
+            }
+        }
+
+        &[data-state='reverse'] {
+            .featured-work__intro,
+            .featured-work__item {
+                &:nth-child(even) {
+                    grid-column: 1/7;
+                }
+
+                &:nth-child(odd) {
+                    grid-column: 13/7;
+                }
             }
         }
     }
