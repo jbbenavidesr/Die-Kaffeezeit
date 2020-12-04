@@ -32,19 +32,23 @@ steps:
     image: /images/uploads/leche.jpg
   - step: Dann wird ein Stück Butter  geschnitten und geschmolzen.
     image: /images/uploads/mantequilla.jpg
-  - step: In einer Schüssel werden die heiße Milch, die geschmolzene Butter, Salz
+  - step:
+      In einer Schüssel werden die heiße Milch, die geschmolzene Butter, Salz
       und etwas Käse hinzugefügt.
     image: /images/uploads/mezcla.jpg
-  - step: Während die Mischung heiß bleibt,  wird die Masse geknetet , bis sie glatt
+  - step:
+      Während die Mischung heiß bleibt,  wird die Masse geknetet , bis sie glatt
       ist
   - step: |
       Eine Pfanne wird erhitzt und etwas Olivenöl wird hinzugefügt
     image: /images/uploads/aceite.jpg
-  - step: " Dann  wird der Teig mit beiden Händen geknetet , mit etwas Käse werden
+  - step:
+      " Dann  wird der Teig mit beiden Händen geknetet , mit etwas Käse werden
       golfballgroße Bällchen geformt und dann werden sie zerquetscht"
     image: /images/uploads/arepa.jpeg
   - step: Etwas Salz wird hinzugefügt und 5 bis 10 Minuten werden die Arepas auf
       jeder Seite gebraten, bis sie goldbraun sind.
     image: /images/uploads/3.jpg
 featuredImage: /images/uploads/7.jpg
+permalink: "/rezepte/arepas-mit-kase/index.html"
 ---

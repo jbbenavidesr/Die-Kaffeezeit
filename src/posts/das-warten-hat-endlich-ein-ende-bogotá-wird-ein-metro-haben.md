@@ -1,11 +1,13 @@
 ---
-title: "Das Warten hat endlich ein Ende, Bogotá wird ein Metro haben:"
+title: "Das Warten hat endlich ein Ende, Bogotá wird ein Metro haben"
 description: Nach langer Zeit bereitet sich Bogota auf die Ankunft der ersten
   U-Bahn-Linie für sein öffentliches Verkehrssystem vor
 author: José Miguel Pérez Orjuela
 tags: Politik und Wirtschaft
 featuredImage: /images/uploads/metrto.jpg
+permalink: "/artikel/{{ tags[0] | slug }}/das-warten-hat-endlich-ein-ende-bogota-wird-ein-metro-haben/index.html"
 ---
+
 <!--StartFragment-->
 
 Bogotá, die Hauptstadt Kolumbiens mit 8 Millionen Einwohnern, befindet sich in einer kritische Situation Letzte Woche wurde bekannt gegeben, dass nach der wahrscheinlich längsten planungsphase für ein Metro-System die Metro endlich gebaut wird. Täglich gibt es mehr als 12 Millionen Fahrten auf den Straßen der Hauptstadt und etwa 2.5 Millionen im Umlauf, jedoch reicht dies nicht aus,  um die Nachfrage der „Bogotanos“ zu befriedigen, weil das System viele interne und administrative Probleme hat. Die Hauptstadt braucht seit langem ein innovatives System, deshalb wurde der Bau eines Transportsystems wie die Metro schon lange organisiert, damit das Leben der )Einwohner der Stadt verbessern würde. Aber es ist bekannt, dass Bgotá seit langem, unter Korruption leidet und zu viele Skandale über die Metro-Planung hatte, so dass die Entwicklung des Baus mehr als 77 Jahre verhindert wurde.
@@ -17,7 +19,5 @@ Derzeit verfügt Bogotá úber ein Transportsystem namens Transmilenio , die mit
 Trotz der Schwierigkeiten bei der Planung und der Entscheidung , ob die Metro unterirdisch oder nicht  wäre , wird das Projekt Ende 2020 beginnen und sollte 2028 geendet und eröffnet werden , die erste Metro-Linie wird mit 23.9 km eine der längsten Lateinamerikas sein. Diese Metro-Linie wird vom Portal de las Américas im Südwesten bis zur 72. Straße im Norden fahren und mit 23 Zügen eine  Kapazität von 72.000 Passagieren pro Stunde haben . Die Projektleiter behaupten , dass die Metro mit einer Durchschnittsgeschwindigkeit von 45 km/h  fahren wird und die gesamte Fahrt könnte weniger als 30 Minuten dauern.
 
 Die Kolumbianer sind optimistisch und begeistert von diesem Projekt , das mehr als 78 stationen in der Hauptstadt haben wird und eine bessere Verkehrsqualität bringen wird, [außerdem](https://es.pons.com/traducci%C3%B3n/alem%C3%A1n-espa%C3%B1ol/au%C3%9Ferdem) hat die neue Verwaltung von Bogotá noch viele weitere Projekte zur Verbesserung der Lebensqualität der Städterin und Städter. Jetzt müssen wir auf das Resultat dieses Megaprojekts in der schönen Bogotá warten.
-
-
 
 <!--EndFragment-->

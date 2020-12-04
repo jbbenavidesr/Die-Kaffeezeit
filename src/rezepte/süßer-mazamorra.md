@@ -28,4 +28,5 @@ steps:
   - step: "Schließlich das Gericht mit geriebene Panela serviert wird."
     image: /images/uploads/4.png
 featuredImage: /images/uploads/imagen-1.png
+permalink: "/rezepte/susser-mazamorra/index.html"
 ---

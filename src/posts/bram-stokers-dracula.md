@@ -11,13 +11,13 @@ Bram Stokers Dracula ist der berühmteste Roman des irischen Schriftstellers Bra
 
 In der Verfilmung, die die Geschichte von Dracula nachbildet, finden wir Folgendes:
 
-·      Nosferatu – Eine Symphonie des Grauens (1922): ein deutscher Film unter der Regie von Friedrich Wilhelm Murnau.
+- Nosferatu – Eine Symphonie des Grauens (1922): ein deutscher Film unter der Regie von Friedrich Wilhelm Murnau.
 
-·      Drácula (1932): ein Film von Tod Browning.
+- Drácula (1932): ein Film von Tod Browning.
 
-·      Nosferatu, Phantom der Nacht (1979): Werner Herzogs Horrorfilm.
+- Nosferatu, Phantom der Nacht (1979): Werner Herzogs Horrorfilm.
 
-·      Bram Stokers Dracula (1992): ein Horrorfilm und Liebesdrama unter der Regie von Francis Ford Coppola.
+- Bram Stokers Dracula (1992): ein Horrorfilm und Liebesdrama unter der Regie von Francis Ford Coppola.
 
 Die neueste Version dieses Films handelt von der Geschichte von Dracula, wie sie im Roman Vorgestellt wurde. Deshalb hatte Coppolas Film viel Erfolg.
 
