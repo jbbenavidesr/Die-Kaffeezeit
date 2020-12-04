@@ -3,8 +3,8 @@ title: Bram Stoker's Dracula
 description: Zwischen Liebe und Entsetzen.
 author: Von Carlos Acuña
 tags: Musik, Film und Literatur
-featuredImage: /images/uploads/captura-de-pantalla-2020-12-03-a-la-s-2.33.01-p. m..png
-permalink: "/artikel/{{ tags[0] | slug }}/bram-stokers-dracula/index.html"
+featuredImage: /images/uploads/dracula_de_bram_stoker_moonmagazine.jpg
+permalink: /artikel/{{ tags[0] | slug }}/bram-stokers-dracula/index.html
 ---
 
 Bram Stokers Dracula ist der berühmteste Roman des irischen Schriftstellers Bram Stoker. Dieser Roman wurde in verschiedenen Formaten reproduziert: Videospiele, Comics, Fernsehserien und Verfilmungen. Die Massenproduktion des Formats hat Dracula zu einer der beliebtesten Figuren der Neuzeit gemacht.
