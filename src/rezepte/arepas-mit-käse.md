@@ -3,7 +3,7 @@ title: Arepas mit Käse
 description: "Heute werden wir lernen, wie man ein köstliches traditionelles
   kolumbianisches Gericht zubereitet: die wunderbaren mit Käse gefüllten Arepas
   "
-author: Von José Miguel Pérez Orjuela
+author: José Miguel Pérez Orjuela
 ingredients:
   - product: Maismehl
     unit: Tassen

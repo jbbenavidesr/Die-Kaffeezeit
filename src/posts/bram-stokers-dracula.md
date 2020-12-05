@@ -1,7 +1,7 @@
 ---
 title: Bram Stoker's Dracula
 description: Zwischen Liebe und Entsetzen.
-author: Von Carlos Acuña
+author: Carlos Acuña
 tags: Musik, Film und Literatur
 featuredImage: /images/uploads/dracula_de_bram_stoker_moonmagazine.jpg
 permalink: /artikel/{{ tags[0] | slug }}/bram-stokers-dracula/index.html

@@ -3,7 +3,7 @@ title: Museen in der Pandemie
 description: Die COVID-19-Pandemie hat die ganze Welt und auch Museen betroffen,
   die keine Besucher oder Aussteller haben können, weil alle Menschen in ihren
   Häusern unter Quarantäne gestellt werden.
-author: "Ana Bernal "
+author: "Ana Bernal"
 tags: Kultur
 featuredImage: /images/uploads/3.-kultur.jpg
 ---

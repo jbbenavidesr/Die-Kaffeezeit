@@ -2,7 +2,7 @@
 title: Ist die ankunft des multiversums?
 description: In den kommenden Monaten wird der neue Spiderman-Film offiziell
   angekündigt, wird dies die Gelegenheit sein, das Multiversum zu sehen?
-author: "José Miguel Pérez Orjuela "
+author: "José Miguel Pérez Orjuela"
 tags: Musik, Film und Literatur
 featuredImage: /images/uploads/multi.jpg
 ---

@@ -3,7 +3,7 @@ title: Eine Essenrevolution
 description: „Alles, was der Mensch den Tieren antut, kommt auf den Menschen
   wieder zurück.“ (Pythagoras, antiker griechischer Philosoph, um 570 v. Chr. –
   nach 510 v. Chr.)
-author: Von Carlos Acuña
+author: Carlos Acuña
 tags: Politik und Wirtschaft
 featuredImage: /images/uploads/vegan-logo-essen-ernahrung-speise.jpeg
 ---
