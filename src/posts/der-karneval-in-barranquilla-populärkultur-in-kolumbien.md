@@ -1,7 +1,7 @@
 ---
 title: "Der Karneval in Barranquilla: Populärkultur in Kolumbien"
 description: "Der Karneval in Barranquilla: Tradition und Kultur."
-author: Von Carlos Acuña
+author: Carlos Acuña
 tags: Menschen
 featuredImage: /images/uploads/carnaval-de-barranquilla-1024x640.jpg
 permalink: "/artikel/{{ tags[0] | slug }}/der-karneval-in-barranquilla-popularkultur-in-kolumbien/index.html"

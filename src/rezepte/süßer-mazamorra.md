@@ -1,7 +1,7 @@
 ---
 title: Süßer Mazamorra
 description: Die Mazamorra kann als Dessert serviert werden.
-author: Von Carlos Acuña
+author: Carlos Acuña
 ingredients:
   - quantity: 400
     unit: g
