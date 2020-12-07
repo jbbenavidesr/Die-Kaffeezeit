@@ -5,7 +5,7 @@ metaDesc: Mögen Sie ein Kaffee? Wir haben keine Kaffee, aber die beste Sammlung
 intro:
   main: "Kaffee Zeit"
   summary: "Mögen Sie ein Kaffee? Wir haben keine Kaffee, aber die beste Sammlung von Artikeln, die Ihren Kaffee begleiten."
-  image: "/images/bg/kaffeezeit.png"
+  image: "/images/bg/kaffeezeit.jpeg"
   imageAlt: "Die Kaffee Zeit. Eine Zeitung für eine Kaffee."
 sliderFeed:
   title: "Rezepte"
